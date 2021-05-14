@@ -4,6 +4,7 @@ p{
 }
 
 .pc{
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -27,7 +28,7 @@ h2{
 }
 
 .first-column{
-    height: 889px;
+    height: auto;
     border: 1px solid #D4EAFF;
     border-right: none;
     box-sizing: border-box;
@@ -47,6 +48,7 @@ h2{
 .container:first-child{
    height: 234px;
   align-items:flex-end;
+  border-bottom: 1px solid #D4EAFF;
 }
 
 .container p{
@@ -61,7 +63,7 @@ h2{
     line-height: 20px
 }
 
-.container:first-child p{
+.container:nth-child(8) p{
     margin-bottom: 14px;
 }
 
@@ -376,4 +378,106 @@ p .six{
     border-radius: 3px;
     border:1px solid #E8178A;
     box-sizing: border-box;
+}
+/**/
+.tablet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tablet-wrapper{
+    display: flex;
+    width: 610px;
+    height: auto;
+    background: linear-gradient(180deg, #E8EEFF 0%, #C2F6FF 100%), #F9FBFF;
+    border-radius: 8px;
+}
+
+.container-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    
+}
+.tablet-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 39px;
+    margin-left: 40px;
+}
+.tablet-rate p{
+   display: inline-block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+}
+
+.description{
+    display: inline-block;
+    width: 276px;
+    margin-top: 45px;
+    margin-left: 16px;
+}
+
+.options{
+    list-style-type:none;
+    margin-bottom: 40px;
+}
+
+.options li{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    padding-left: 14px;
+    background: url("Vector (Stroke).svg") no-repeat center left;
+    background-size: 12px 10px;
+}
+
+li img{
+    position: relative;
+    top:4px;
+}
+ 
+.tablet .price{
+    margin-top: 70px;
+}
+
+.tablet .tablet-button{
+    background-color: #E8178A;
+    color: white;
+}
+
+.tablet-wrapper:nth-child(2){
+    background: none;
+    border: 1px solid #D4EAFF;
+    border-radius: 8px;
+    margin-top:30px ;
+}
+
+
+
+.tablet-wrapper:nth-child(2) .tablet-button{
+    color: #E8178A;
+    background: white;
+}
+
+
+
+.tablet-wrapper:nth-child(2) .button{
+    margin-top: 25px;
 }
