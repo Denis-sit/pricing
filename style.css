@@ -18,9 +18,10 @@ h2{
     margin-bottom: 63px;
 }
 
-.wraper{
+.wrapper{
     display: flex;
-    width: 60%;
+    position: relative;
+    width: 930px;
     height: auto;
     justify-content: center;
 }
@@ -94,6 +95,7 @@ p .six{
     border: 1px solid #D4EAFF;
     border-right: none;
     box-sizing: border-box;
+    margin-right: 220px;
 }
 
 .rate{
@@ -184,6 +186,7 @@ p .six{
     border:1px solid #E8178A;
     margin-top: 33px;
     margin-left: 34px;
+    border-radius: 3px;
 }
 
 .button a{
@@ -203,11 +206,12 @@ p .six{
 
 .third-column{
     height: 929px;
-    position: relative;
+    position: absolute;
     border: 1px solid #D4EAFF;
     box-sizing: border-box;
     border-radius: 8px;
     top:-17px;
+    left: 464px;
     background: linear-gradient(180deg, #E8EEFF 0%, #C2F6FF 100%), #F9FBFF;
 }
 
@@ -289,6 +293,14 @@ p .six{
     text-align: center;
 }
 
+.third-column .button{
+    background: #E8178A;
+}
+
+.third-column .button a{
+    color: white;
+}
+
 .third-column .button, .fourth-column .button{
     margin-top: 6px;
 }
@@ -301,14 +313,67 @@ p .six{
     border-radius: 0 8px 8px 0;
 }
 
+.fourth-column .rate,
+.fourth-column .str,
+.fourth-column .yes,
+.fourth-column .data,
+.fourth-column .price{
+    width: 230px;
+}
+
 .fourth-column .str-p{
     width: 121px;
 }
 
 .individual{
+    display: flex;
     width: 930px;
     height: 189px;
     box-sizing: border-box;
     border: 1px solid #D4EAFF;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 51px;
+}
+
+.container-wrapper{
+    width: 457px;
+    margin-left: 50px;
+    margin-top: 49px;
+}
+
+.container-wrapper p:first-child{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.container-wrapper p:last-child{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;  
+    margin-top: 17px;
+}
+
+.bitton-individual{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.bitton-individual a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    padding: 13px 37px 11px 37px;
+    color: #E8178A;
+    border-radius: 3px;
+    border:1px solid #E8178A;
+    box-sizing: border-box;
 }
