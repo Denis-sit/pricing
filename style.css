@@ -525,7 +525,7 @@ li img{
      }
 }
 
-@media (max-width:925px) {
+@media  (max-width:925px) {
     .pc{
         display:none;
     }
@@ -547,6 +547,7 @@ li img{
     .price-mob{
         margin-top: 72px;
         margin-right: 0;
+       margin-left: 15px;
     }
     .options .none{
         display: inline-block;
