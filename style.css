@@ -1,47 +1,61 @@
 @font-face {
-    font-family: Proxima Nova Condensed Bold;
-    src: url("Proxima/Bold/ProximaNovaCond-Bold.ttf");
-    src: url("Proxima/Bold/ProximaNovaCond-Bold.eot");
-    src: url("Proxima/Bold/ProximaNovaCond-Bold.otf");
-    src: url("Proxima/Bold/ProximaNovaCond-Bold.woff");
-    src: url("Proxima/Bold/ProximaNovaCond-Bold.woff2");
-    src: url("Proxima/Bold/ProximaNovaCondBold.woff");
+    font-family: "Proxima Nova Condensed Bold";
+    src:local("Proxima Nova Condensed Bold"), 
+     url("Proxima/Bold/ProximaNovaCond-Bold.ttf"),
+     url("Proxima/Bold/ProximaNovaCond-Bold.eot"),
+     url("Proxima/Bold/ProximaNovaCond-Bold.otf"),
+     url("Proxima/Bold/ProximaNovaCond-Bold.woff"),
+     url("Proxima/Bold/ProximaNovaCond-Bold.woff2"),
+     url("Proxima/Bold/ProximaNovaCondBold.woff");
 }
 
 @font-face {
-    font-family:Proxima Nova Condensed Normal;
-    src: url("Proxima/Regular/ProximaNovaCond-Regular.ttf");
-    src: url("Proxima/Regular/ProximaNovaCond-Regular.eot");
-    src: url("Proxima/Regular/ProximaNovaCond-Regular.woff");
-    src: url("Proxima/Regular/ProximaNovaCond-Regular.woff2");
+    font-family:"Proxima Nova Condensed Normal";
+    src:local("Proxima Nova Condensed Normal"),
+    url("Proxima/Regular/ProximaNovaCond-Regular.eot"),
+    url("Proxima/Regular/ProximaNovaCond-Regular.ttf"),
+    url("Proxima/Regular/ProximaNovaCond-Regular.woff"),
+    url("Proxima/Regular/ProximaNovaCond-Regular.woff2");
 }
 
 @font-face {
-    font-family:Proxima Nova Condensed;
-    src: url("Proxima/ExBold/ProximaNovaCond-Extrabld.ttf");
-    src: url("Proxima/ExBold/ProximaNovaCond-Extrabld.eot");
-    src: url("Proxima/ExBold/ProximaNovaCond-Extrabld.woff");
-    src: url("Proxima/ExBold/ProximaNovaCond-Extrabld.woff2");
-    src: url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.eot");
-    src: url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.woff");
-    src: url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.woff2");
-    src: url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.ttf");
+    font-family:"Proxima Nova Condensed Extrabld";
+    src: local("Proxima Nova Condensed Extrabld"),
+     url("Proxima/ExBold/ProximaNovaCond-Extrabld.ttf"),
+     url("Proxima/ExBold/ProximaNovaCond-Extrabld.eot"),
+     url("Proxima/ExBold/ProximaNovaCond-Extrabld.woff"),
+     url("Proxima/ExBold/ProximaNovaCond-Extrabld.woff2"),
+     url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.eot"),
+     url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.woff"),
+     url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.woff2"),
+     url("Proxima/ExBold/ProximaNovaCond-ExtrabldIt.ttf");
 }
 
 @font-face {
-    font-family:Proxima Nova Condensed Black ;
-    src: url("Proxima/Black/ProximaNovaCond-Black.eot");
-    src: url("Proxima/Black/ProximaNovaCond-Black.otf");
-    src: url("Proxima/Black/ProximaNovaCond-Black.ttf");
-    src: url("Proxima/Black/ProximaNovaCond-Black.woff");
-    src: url("Proxima/Black/ProximaNovaCond-Black.woff2");
-    src: url("Proxima/Black/ProximaNovaCondBlack.woff");
+    font-family:"Proxima Nova Condensed Black" ;
+    src: local("Proxima Nova Condensed Black"),
+     url("Proxima/Black/ProximaNovaCond-Black.eot"),
+     url("Proxima/Black/ProximaNovaCond-Black.otf"),
+     url("Proxima/Black/ProximaNovaCond-Black.ttf"),
+     url("Proxima/Black/ProximaNovaCond-Black.woff"),
+     url("Proxima/Black/ProximaNovaCond-Black.woff2"),
+     url("Proxima/Black/ProximaNovaCondBlack.woff");
+}
+
+@font-face {
+    font-family:"Proxima Nova Condensed ExBlack" ;
+    src: local("Proxima Nova Condensed ExBlack"),
+     url("Proxima/ExBlack/ProximaNovaExCn-Black.otf"),
+     url("Proxima/ExBlack/ProximaNovaExCn-Black.ttf"),
+     url("Proxima/ExBlack/ProximaNovaExCn-Black.woff"),
+     url("Proxima/ExBlack/ProximaNovaExCn-Black.woff2");
 }
 
 p{
     margin: 0;
     padding: 0;
 }
+
 a{
     text-decoration: none;
 }
@@ -54,7 +68,7 @@ a{
 }
 
 h2{
-    font-family: Proxima Nova Condensed ExtrabldIt;
+    font-family: Proxima Nova Condensed Extrabld;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
@@ -348,7 +362,7 @@ p .six{
 
 .price-price .price-month{
     margin-top: 5px;
-    font-family: Proxima Nova Condensed Regular;
+    font-family: Proxima Nova Condensed Normal;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
