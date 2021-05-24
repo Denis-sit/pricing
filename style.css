@@ -87,7 +87,7 @@ h2{
 
 .first-column,
 .second-column{
-    height: auto;
+    height: 889px;
     border: 1px solid #D4EAFF;
     border-right: none;
     box-sizing: border-box;
@@ -214,7 +214,20 @@ p .six{
 
 .price-price{
     width: 230px;
-    height: 165px;
+    height: 188px;
+}
+
+.pc .price-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-column .price-price,
+.second-column .price-price,
+.fourth-column .price-price{
+   height: 165px;
 }
 
 .yes img {
@@ -248,9 +261,20 @@ p .six{
     margin-top: 33px;
     margin-left: 34px;
     border-radius: 3px;
+}  
+
+.pc .button{
+    margin-left: 0;
 }
 
+.pc .second-column .button,
+.pc .fourth-column .button{
+    margin-bottom: 31px;
+}
 
+.pc .third-column .button{
+    margin-bottom: 54px;
+}
    
 .button-item{
     display: inline-block;
@@ -381,7 +405,7 @@ p .six{
 
 .fourth-column{
     width: 230px;
-    height: auto;
+    height: 889px;
     border:1px solid #D4EAFF;
     border-left: none;
     border-radius: 0 8px 8px 0;
